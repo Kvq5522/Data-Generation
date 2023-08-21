@@ -1,0 +1,1 @@
+Generate mockdata for OrangeHRM Department and Employee in Department with FakerJS
