@@ -52,18 +52,27 @@ console.log("Generate department data successfully!");
 //Generate data for employee table
 let employeeNumber = 10000;
 
-const employeePreStatement = `INSERT INTO hs_hr_employee (emp_number, employee_id, emp_lastname, emp_firstname, work_station) VALUES `;
+const employeePreStatement = `INSERT INTO hs_hr_employee (emp_number, employee_id, emp_lastname, emp_firstname, work_station, emp_street1, emp_work_email) VALUES `;
 
 let employeeData = [];
 
 for (let i = 0; i < departmentData.length; i++) {
   for (let j = 0; j < 100; j++) {
+    const firstName = faker.person.firstName();
+    const lastName = faker.person.lastName();
+
     const mockData = {
       emp_number: employeeNumber + j,
       employee_id: employeeNumber + j,
-      emp_lastname: faker.person.lastName(),
-      emp_firstname: faker.person.firstName(),
+      emp_lastname: firstName,
+      emp_firstname: lastName,
       work_station: departmentData[i].id,
+      emp_street1: faker.location.streetAddress({ useFullAddress: true }),
+      emp_work_email: faker.internet.email({
+        firstName: firstName,
+        lastName: lastName,
+        provider: "example.gmail.com",
+      }),
     };
 
     employeeData.push(mockData);
@@ -75,7 +84,10 @@ for (let i = 0; i < departmentData.length; i++) {
 const employeeQuery = employeeData.map((item) => {
   return (
     employeePreStatement +
-    `('${item.emp_number}','${item.employee_id}', '${item.emp_lastname}', '${item.emp_firstname}', ${item.work_station});`
+    `('${item.emp_number}','${item.employee_id}', 
+    '${item.emp_lastname}', '${item.emp_firstname}', 
+    '${item.work_station}', '${item.emp_street1}',
+     '${item.emp_work_email}');`
   );
 });
 

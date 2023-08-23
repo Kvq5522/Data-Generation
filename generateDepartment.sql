@@ -1,41 +1,41 @@
 USE orangehrm_mysql;
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10000','Jewelery', '4b306007-7d40-4467-9798-97c4bc82b6ca', 'Thích xanh yêu xuồng. Đạp bạn vàng thương đỏ hóa chỉ.', 52, 43, 8);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10000','Games', '8c323f65-ce3c-47a6-9b32-7aeb9a2ea81f', 'Leo mướn kim tui ừ. Đạp nha chín ác máy gió bàn độc chết trời.', 94, 15, 10);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10001','Industrial', '7d2bd232-0e42-4055-89d5-44ca9b27c89f', 'Tàu tủ độc mười phá mười thuyền. Xuồng đá cái đỏ áo viết trời được.', 30, 67, 10);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10001','Toys', '9df979ff-32f8-45f1-ab85-63725f72d0bb', 'Quê phá đâu mướn. Thì xuồng biển.', 66, 95, 10);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10002','Beauty', '3811e0fd-42f6-420b-9214-c5243ab45706', 'Máy khoảng nón thì yêu gì xe nón. Thôi vàng ghế cửa nha.', 19, 4, 1);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10002','Garden', '0d75b1da-cd5a-423e-8ae6-32a5f4da5035', 'Là là đang mây. Mướn ruộng cái.', 16, 35, 3);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10003','Shoes', 'f546b85a-0d65-413a-b3e5-8b5c6a6616f9', 'Thì nhà giày đỏ lầu chỉ đồng ruộng. Không xuồng biết được xe xuồng hóa viết.', 38, 57, 10);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10003','Kids', '374b315e-1bfc-4376-99a0-af73b4abb0e5', 'Bơi mướn bơi làm. Bạn gió dép khâu kim viết tím áo đập đâu.', 16, 60, 7);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10004','Music', 'c7353b31-416f-43d4-b863-f677dd30891f', 'Chìm chết tám tô một tui sáu. Nghỉ giết tủ quê viết năm thế biết ghét đạp.', 95, 69, 5);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10004','Music', '049b787c-49c8-48d4-a983-689f15ed9864', 'May thích mây con bơi hương thương bè áo. Mướn chìm thích dép lỗi may quê biết biển.', 52, 74, 0);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10005','Health', '6d646ca4-ecb6-48cc-bae9-36e658982c47', 'Áo anh á nhà mua tím em. Tui làm được.', 23, 70, 5);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10005','Baby', 'f08a6cff-02b7-42a5-b193-d9817590a214', 'Đập khâu leo biết. Khoan thôi thuê phá ghế không đỏ chìm gì.', 75, 92, 9);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10006','Games', '14564351-4a72-4abc-99b5-e7532056664e', 'Ba sáu tui tám thế cửa. Độc là cửa việc may giết giết.', 48, 6, 5);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10006','Tools', '5d671be4-bf0a-42cc-bcfc-95162b43d5e1', 'Một biển quần làm ghét thế quê. Đập mượn khoan bảy xuồng mượn giày thích núi.', 43, 30, 5);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10007','Baby', 'c7d1a2c3-508d-4af6-bd06-9007fc90243f', 'Tủ gì việc may ghế ba tui mượn. Gì bốn máy.', 93, 10, 2);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10007','Home', 'ed3d9b44-ca5f-4253-9400-16698f170566', 'Tám nhà sáu lỗi hai hương nón nhà hóa nước. Đỏ khâu nón.', 24, 84, 8);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10008','Electronics', 'd8601d9a-1b0a-4176-bc37-d92cbb662eb8', 'Thích ba mượn. Vá đánh vàng khâu.', 67, 29, 3);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10008','Books', 'c4913ebd-6a19-4210-af09-11728d4fb7f4', 'Đang đang gió bè viết em ác. Ghế nhà máy tôi biết trời ngọt nha.', 92, 68, 0);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10009','Toys', 'c54ee1e5-31df-4e13-8baf-fcd0ab01b9db', 'Hai ba bảy đánh chìm chỉ đánh. Thôi khoảng tui đỏ bè ờ leo vẽ.', 69, 76, 10);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10009','Grocery', '16dc7fd3-31c5-4bb0-bf52-9d4ebc9d8c81', 'Tôi xe chết bơi. Trăng bốn ghế lầu hết.', 91, 66, 10);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10010','Tools', 'd992cbbd-0212-4770-a45b-e9f2937dcee2', 'Máy phá ác thôi hóa đỏ tui chín hết là. Khâu mượn hàng đang mây.', 37, 52, 3);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10010','Industrial', '3e1cfb99-b2fb-44a4-9930-bd9d95c2d6e2', 'Nha á thế ghế dép bơi tôi không hết đồng. Thương mượn thích con cái nghỉ gió.', 17, 80, 4);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10011','Movies', 'cd01157e-0140-4ae0-b2f5-a2d117bcae57', 'Trăng xanh mướn khoan. Lỗi quần bốn bè xanh hàng ba chìm khoảng.', 98, 41, 4);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10011','Health', 'b96273dd-420f-4f10-9ba7-18f60eabd866', 'Thuyền núi quê may máy. Trời trăng phá may giết đánh.', 97, 72, 10);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10012','Clothing', '96e04923-64b3-478b-961b-f5b955a08a1a', 'Nghỉ á ruộng ừ là. Bè khoảng chết anh đã lầu.', 91, 16, 8);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10012','Automotive', '802edaa5-02fd-4ff2-b50d-955f81e31aa7', 'Đánh hóa trăng bè khoảng nước. Á bạn cửa.', 1, 15, 5);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10013','Kids', '3f4add18-8ea2-46c1-8319-928c2eb8f381', 'Vẽ dép nha đập đập hương tui ờ biết. Quê nước sáu mây anh sáu ghế bạn chín.', 71, 35, 10);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10013','Shoes', '5db2ab29-156e-4790-8625-f36fbfc4f017', 'Mướn đạp hàng leo phá. Trời tủ mượn chết may.', 50, 99, 2);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10014','Outdoors', '491aab1b-5d61-4eff-a196-217d43b4979e', 'Giày ừ mướn bảy đập nghỉ. Hương quần trăng đỏ.', 19, 33, 2);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10014','Beauty', 'a2921721-8faf-4009-846e-ee1d8a6f156b', 'Làm giày mua việc không cái nhà xuồng nha. Vẽ ruộng giày.', 65, 39, 7);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10015','Automotive', 'c6e3cdf7-bb9d-4ec5-81f2-180eec62c1c2', 'Bè tủ tám hai bè bàn thuyền đã đâu. Ghét phá viết.', 33, 85, 6);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10015','Clothing', '5d707673-90e2-4e9c-ab34-6728fe21b028', 'Hàng máy biển vàng thì mua xe quần làm. Mướn được mười mười thuê nước vẽ thích núi ruộng.', 30, 26, 9);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10016','Home', '99602e3a-1753-45ea-96d7-8b83e01b0192', 'Giết xanh khoan ờ tui thuyền mua mua biển ba. Bàn tàu lầu cái quần lỗi việc thôi ờ hương.', 34, 50, 6);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10016','Jewelery', '80fb59a1-1a1f-412c-bf06-9a3e0f32dfb9', 'Quê hai đâu độc một nước ghét. Vá thương bàn xe.', 98, 10, 9);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10017','Sports', '20224e2e-3394-4ca6-88dd-bec8348bcb9e', 'Tàu khoan ba tàu giết chìm. Cửa biết vàng máy bảy khâu tô khoảng thôi.', 73, 18, 9);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10017','Computers', '9a773e77-0bda-442e-9464-d7385a94ce09', 'Bạn tui bè vẽ biển xe được đâu là. Trời việc biết đỏ thì bốn.', 1, 75, 8);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10018','Books', '35288256-f5e2-43ec-9fd0-591b5f8f2768', 'Giết đang là ừ ngọt thì xe ghế hương. Tím xuồng chết đánh may mượn chìm quê nước.', 34, 31, 9);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10018','Outdoors', '847671f5-9cdc-4495-aa5c-b5ba6b333dc7', 'Bốn mây đạp lỗi yêu khâu. Làm xuồng tám ngọt sáu làm biển ghét.', 57, 77, 4);
 
-INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10019','Computers', '48a5f8d9-88e2-4e36-bf4d-020825992add', 'Tàu bàn thích nghỉ nghỉ trời cái. Thế đâu vá nón may vàng.', 86, 99, 1);
+INSERT INTO ohrm_subunit (id, name, unit_id, description, lft, rgt, level) VALUES ('10019','Sports', 'd0c6d9fe-d0ac-46f0-bf2a-3c2d6c184aa3', 'Tám á vẽ thích thích nón gió. Biển việc chín độc thuyền xuồng.', 76, 3, 7);
